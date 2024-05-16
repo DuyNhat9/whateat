@@ -1,0 +1,26 @@
+.order-container{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.order-container .title{
+    font-size: 1rem;
+    font-weight: 650;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.order-container .title span{
+    margin-right: 1rem;
+}
+
+.order-container .cancel-btn{
+    border: none;
+    background-color: brown;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}

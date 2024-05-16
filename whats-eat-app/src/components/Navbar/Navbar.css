@@ -1,0 +1,140 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 2px solid #C4C4C4;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.logo-and-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.logo-and-search .logo{
+    font-family: 'Festive', cursive;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    color: brown;
+}
+.logo-and-search .logo:hover,
+.logo-and-search .logo:active{
+    cursor: pointer;
+}
+
+.logo-and-search .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+    height: 2.5rem;
+}
+
+.logo-and-search .search .search-icon{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.logo-and-search .search .search-input{
+    height: 2rem;
+    width: 90%;
+    font-size: 1rem;
+    border: none;
+}
+.logo-and-search .search .search-input:focus{
+    outline: none;
+}
+
+
+.logo-and-search .search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 2.5rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.logo-and-search .search-btn:hover,
+.logo-and-search .search-btn:active{
+    cursor: pointer;
+    color: #fff;
+    background-color: brown;
+    transition: .2s;
+}
+
+.options{
+    display: flex;
+    margin-right: 5rem;
+    height: 2.5rem;
+}
+
+.options .option-btn{
+    height: 2.5rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.3rem;
+    margin-left: 1rem;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+.ant-dropdown-link{
+    color: #000;
+    }
+.ant-dropdown-link:hover,
+.ant-dropdown-link:active{
+    color: brown;
+}
+
+.options .option-btn:hover,
+.options .option-btn:active{
+    cursor: pointer;
+    background-color: #C4C4C4;
+    transition: 0.5s;
+    color: brown;
+}
+
+.options .option-btn .option-dropdown{
+    /* margin-top: 1rem; */
+}
+
+.single-option{
+    margin: 2rem 0.5rem;
+    font-size: 1rem;
+}
+
+.single-option span{
+    margin-left: 1rem;
+}
+
+.options .option-btn span{
+    vertical-align: middle;
+}
+
+.options .option-btn .option-icon{
+    padding-right: 0.2rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}

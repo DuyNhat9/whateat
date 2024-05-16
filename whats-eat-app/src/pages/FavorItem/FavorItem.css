@@ -1,0 +1,80 @@
+.fav-item-fluid{
+    display: flex;
+    justify-content: center;
+    background-color: #E9EBEE;
+}
+
+.fav-item-card{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.fav-item-fluid .fav-item-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fav-item .title{
+    text-transform: capitalize;
+}
+
+.fav-item .fav-item-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fav-item-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.fav-item-container{
+    width: 70%;
+    margin-top: 4rem;
+}
+
+.fav-item-fluid .fav-item-container .item-col{
+    width: 90%;
+}
+.fav-item-fluid .fav-item-container .item-col:hover{
+    cursor: pointer;
+}
+
+.fav-item-fluid .fav-item-container .item-col .item-container .item-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fav-item-fluid .fav-item-container .item-col .item-container .item-name{
+    font-weight: 650;
+    padding-top: 1rem;
+}
+
+.fav-item-fluid .fav-item-container .item-col .item-container .item-quantity{
+    margin-top: -0.5rem;
+    margin-bottom: 0rem;
+}
+
+.fav-item-fluid .fav-item-container .item-col .item-container .item-price{
+    font-weight: 650;
+    font-size: 1rem;
+}
+
+.fav-item-card .heart-icon{
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+}
+
+.fav-item-card .heart-icon .icon:hover{
+    cursor: pointer;
+    fill: brown;
+}

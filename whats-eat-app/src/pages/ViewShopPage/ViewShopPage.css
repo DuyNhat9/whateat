@@ -1,0 +1,82 @@
+.view-shop-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.view-shop-container{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.view-shop-container .shop-info-block{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.shop-info-block .shop-img{
+    width: 40%;
+    background-color: rgb(131, 131, 131);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 5rem;
+}
+
+.view-shop-container .shop-info-block .img-box{
+    display: flex;
+}
+ .view-shop-container .shop-info-block .avt-img{
+     width: 5rem;
+     height: 5rem;
+     border-radius: 50%;
+     border: 2px solid #c4c4c4;
+ }
+
+ .view-shop-container .shop-info-block .shop-name{
+     float: right;
+     text-transform: capitalize;
+     color: #fff;
+     font-weight: 650;
+     margin-top: 0.5rem;
+     margin-left: 0.5rem;
+ }
+
+ .view-shop-container .shop-info-block .btn-box{
+     display: flex;
+ }
+
+ .view-shop-container .shop-info-block .btn-box .btn{
+     width: 46%;
+     padding: 0.2rem 0rem;
+     margin:1rem 0.5rem 0rem 0.5rem;
+     border-radius: 2px;
+     border: none;
+     text-transform: uppercase;
+     font-weight: 900;
+     background-color: #fff;
+     color: brown;
+ }
+
+ .shop-info-block .btn-box .btn:hover,
+ .shop-info-block .btn-box .btn:active{
+     background-color: red;
+ }
+
+ .shop-info-block .shop-info{
+     font-size: 1rem;
+     font-weight: 650;
+ }
+.shop-info .icon{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+ .shop-info span{
+     color: brown;
+ }
+
+ .view-shop-container .shop-products{
+     margin: 3rem 1rem;
+
+ }

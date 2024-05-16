@@ -1,0 +1,56 @@
+.shop .shop-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.shop .shop-fluid .shop-container{
+    width: 80%;
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}
+
+.shop .shop-fluid .shop-container .title-container{
+    margin: 1rem 0rem 0rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.shop .shop-fluid .shop-container .content{
+    text-align: center;
+    padding-top: 3.5rem;
+    margin: 1.5rem 2rem 5rem 2rem;
+    border-top: 1px solid #dad9d9;
+}
+
+.shop .shop-fluid .shop-container .content .not-register-img{
+    width: 15rem;
+}
+
+.shop .shop-fluid .shop-container .content .title{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.shop .shop-fluid .shop-container .content p{
+    margin-bottom: 2rem;
+}
+
+.shop .shop-fluid .shop-container .content .register-btn{
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+    color: #fff;
+    border: none;
+    background-color: brown;
+    font-weight: 650;
+    border-radius: 3px;
+}
+.shop .shop-fluid .shop-container .content .register-btn:hover,
+.shop .shop-fluid .shop-container .content .register-btn:active{
+    cursor: pointer;
+    background-color: red;
+}

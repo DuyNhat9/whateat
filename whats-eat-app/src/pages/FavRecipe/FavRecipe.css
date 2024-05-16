@@ -1,0 +1,53 @@
+.fav-recipe-fluid{
+    display: flex;
+    justify-content: center;
+    background-color: #E9EBEE;
+}
+
+.fav-recipe-fluid .fav-recipe-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fav-recipe-container .profile{
+    text-align: center;
+}
+
+.profile img,
+.profile .img-avt{
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+}
+.profile .username{
+    font-size: 1rem;
+    font-weight: 650;
+    margin-bottom: 1rem;
+}
+.profile .date-update{
+    color: #B2B4C2;
+}
+.profile h1{
+    margin-bottom: 0;
+}
+
+.fav-recipe-container .more-recipe{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.more-recipe button{
+    font-size: 1.2rem;
+    border: none;
+    background-color: inherit;
+}
+.more-recipe button:hover{
+    cursor: pointer;
+}

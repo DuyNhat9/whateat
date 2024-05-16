@@ -1,0 +1,43 @@
+.payment-success .icon{
+    margin-top: 5%;
+    font-size: 15rem;
+    display: flex;
+    justify-content: center
+}
+
+.payment-success h1{
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 0.3rem;
+    margin-top: 1rem;
+    color: brown;
+    border-bottom: 1.5px solid #C4C4C4;
+}
+
+.payment-success .content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center
+}
+
+.payment-success .btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem
+}
+
+.payment-success .btn .back-home-btn{
+    margin-top: 1rem;
+    padding: 0.8rem 5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.payment-success .btn .back-home-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}

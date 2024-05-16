@@ -1,0 +1,11 @@
+.orders-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders-fluid .orders-container{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

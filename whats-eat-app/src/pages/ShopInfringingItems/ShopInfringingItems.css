@@ -1,0 +1,24 @@
+.shop-infringing-items-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.shop-infringing-items-fluid .shop-infringing-items-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f6f6f6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+}
+
+.shop-infringing-items-container .content-container{
+    width: 75%;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}

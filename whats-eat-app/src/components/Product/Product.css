@@ -1,0 +1,45 @@
+.item-container{
+    position: relative;
+}
+
+.item-container:hover{
+    cursor: pointer;
+}
+
+.item-container .item-img{
+    width: 100%;
+    max-height: 10rem;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.item-container .item-name{
+    font-weight: 650;
+    padding-top: 1rem;
+    overflow: hidden;
+    max-width: 35ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-container .item-quantity{
+    margin-top: -0.5rem;
+    margin-bottom: 0rem;
+}
+
+.item-container .item-price{
+    font-weight: 650;
+    font-size: 1rem;
+}
+
+.item-container .icon{
+    position: absolute;
+    font-size: 30px;
+    bottom: 0.2rem;
+    right: 0.2rem;
+}
+
+.item-container .icon:hover{
+    cursor: pointer;
+    color: blue;
+}

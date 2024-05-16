@@ -1,0 +1,127 @@
+.add-recipe-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFF;
+}
+    
+.add-recipe-fluid .add-recipe-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+    
+.add-recipe-container .content-container{
+    width: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+}
+    
+.add-recipe-container .content-container .title{
+    font-weight: 650;
+    margin-bottom: 0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+    
+.add-recipe-container .content-container .note{
+    opacity: 0.8;
+    margin-top: -0.3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+    
+.add-recipe-container .content-container .basic-info h3
+    {
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: brown;
+    border-bottom: 1.5px solid #C4C4C4;
+}
+    
+    
+.add-recipe-container .content-container .basic-info .detail-info .register-form{
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+
+.register-form .ingredient-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.register-form .ingredient-box input{
+    width: 35%;
+}
+
+.ingredient-box button{
+    width: 20%;
+}
+.register-form .disable{
+    color: #fff;
+    background-color: #C4C4C4;
+    cursor: not-allowed;
+}
+.register-form .single-step{
+    margin-top: 0.35rem;
+    margin-bottom: 0.15rem;
+}
+
+.register-form .single-step textarea{
+    margin-bottom: 0.5rem;
+}
+
+.register-form .single-step .done-btn{
+    margin-top: 0.5rem;
+}
+
+.register-form .single-step .done-btn:hover{
+    background-color: brown;
+    color: #fff;
+}
+
+.register-form .single-step .disable{
+    cursor: not-allowed;
+}
+.register-form .single-step .disable:hover{
+    background-color: #C4C4C4;
+    color: #adadad;
+}
+
+.register-form .add-step-btn{
+    margin-top: 0.5rem;
+    float: right;
+}
+
+.add-recipe .my-recipes h1{
+    font-weight: 900;
+}
+
+.add-recipe .my-recipes{
+    width: 70%;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+}
+
+.add-recipe .my-recipes .dish-box-container{
+    position: relative;
+}
+.dish-box-container .icon-delete{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.dish-box-container .icon-delete:hover{
+    color: red;
+}

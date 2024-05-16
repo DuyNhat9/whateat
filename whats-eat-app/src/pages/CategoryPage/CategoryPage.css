@@ -1,0 +1,55 @@
+.category-fluid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.category-container{
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.category-container .option-btn-group{
+    margin: 2rem 0rem;
+    padding: 0.8rem;
+    background-color: #F0F0F0;
+}
+
+.option-btn-group .btn{
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    color: #000;
+    border: 1px solid #c4c4c4;
+    border-radius: 50px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.option-btn-group .active-btn{
+    color: #fff;
+    background-color: brown;
+}
+
+.category-container .content .title{
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+
+.category-container .categories .categories-container{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.category-container .categories .categories-container .ant-row .ant-col{
+    text-align: center;
+    padding-left: 0;
+}
+.content span{
+    font-weight: 500;
+}
+
+.category-container .content .product-list{
+    display: flex;
+    flex-wrap: wrap;
+}

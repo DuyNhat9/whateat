@@ -1,0 +1,50 @@
+.fav-dish-card{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.fav-dish-card .dish-img{
+    width: 100%;
+    height: 158px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.fav-dish-card .dish-name{
+    font-weight: 650;
+}
+
+.fav-dish-card .heart-icon{
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+}
+
+.fav-dish-card .heart-icon .icon:hover{
+    cursor: pointer;
+    fill: red;
+}
+
+.fav-dish-card .dish-info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: #b2b4c2;
+    border-bottom: 1px solid #B2B4C2;
+}
+
+.fav-dish-card .dish-info .info-detail{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.fav-dish-card .dish-info .info-detail .icon{
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+.fav-dish-card .dish-info .info-detail span{
+    font-weight: bold;
+}

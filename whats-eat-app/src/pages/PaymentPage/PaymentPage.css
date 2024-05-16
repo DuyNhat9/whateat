@@ -1,0 +1,220 @@
+.payment-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-fluid .payment-container{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.payment-container .address-block,
+.payment-container .products-block{
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.payment-container .address-block .title
+{
+    font-size: 1rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.payment-container .address-block .info-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.info-block p{
+    margin-bottom: 0rem;
+}
+.info-block .username,
+.info-block .phone{
+    font-weight: 650;
+}
+
+.info-block a{
+    text-transform: uppercase;
+}
+
+.products-block .products-box .title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.products-block .products-box .product{
+    width: 55%;
+}
+
+.products-block .products-box .quantity{
+    width: 15%;
+}
+.products-block .products-box .price{
+    width: 15%;
+}
+.products-block .products-box .total{
+    width: 15%;
+}
+
+.products-block .products-box .product-detail{
+    margin-top: 2rem;
+}
+
+.products-block .products-box .product-detail .single-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-block .products-box .product-detail .single-item .info{
+    display: flex;
+    width: 55%;
+}
+
+.products-block .products-box .product-detail .single-item img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+}
+
+.products-block .products-box .product-detail .single-item h3{
+    width: 15%;
+}
+
+.products-block .message-box{
+    display: flex;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.products-block .message-box .message{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border-right: 1px solid #c4c4c4;
+    padding: 0.5rem 1rem;
+    width: 40%;
+}
+
+.products-block .message-box .message p{
+    margin-right: 1rem;
+    padding-top: 1rem;
+}
+
+.products-block .message-box .message input{
+    width: 80%;
+    border: 1.5px solid #c4c4c4;
+    padding: 0.5rem;
+}
+
+.products-block .message-box .message input:focus{
+    border: 1.5px solid #c4c4c4;
+    outline: none;
+}
+
+.products-block .message-box .deliver{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 40%;
+}
+
+.deliver .title{
+    color: rgb(24, 201, 142);
+    padding-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+.deliver .deli-unit{
+    padding-top: 1rem;
+    margin-right: 0.5rem;
+}
+
+.deliver a{
+    text-transform: uppercase;
+    margin-left: 3rem;
+}
+
+.products-block .message-box .shipping-fee{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-left: 1.5px solid #c4c4c4;
+}
+
+.payment-fluid .payment-container .btn:hover,
+.payment-fluid .payment-container .btn:active{
+    background-color: red;
+    cursor: pointer;
+}
+
+.products-block .payment-method-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 1rem;
+}
+
+.payment-method-box p{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.payment-method-box a{
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+.products-block .total-box .total-payment{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 650;
+    text-align: right;
+}
+
+.payment-fluid .payment-container .confirm-btn{
+    float: right;
+    margin-top: 1rem;
+    padding: 0.8rem 5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.address-block .btn-add-address{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 3rem;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.address-block .btn-add-address:hover{    
+    background-color: red;
+}
+
+.payment-fluid .choose-address:hover,
+.payment-fluid .choose-address:active{
+    background-color: #dbd9d9;
+}

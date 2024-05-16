@@ -1,0 +1,34 @@
+.guide-container{
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.guide-container .guide-box .step-container{
+    display: flex;
+    align-items: flex-start;
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.guide-container .guide-box .step-container .step-number{
+    margin-right: 1rem;
+    margin-top: -0.3rem;
+}
+
+.guide-container .guide-box .step-container .step-content p{
+    
+    margin-bottom: 0.5rem;
+    line-height: 1rem;
+}
+
+.guide-container .guide-box .step-container .step-content .img-box{
+    display: flex;
+}
+
+.guide-container .guide-box .step-container .step-content .img-box img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.3rem;
+    border-radius: 3px;
+}

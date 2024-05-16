@@ -1,0 +1,151 @@
+.recommender-body{
+    display: flex;
+    justify-content: center;
+}
+
+.recommender-body .recommender-container{
+    width: 70%;
+    margin-bottom: 5rem;
+}
+
+.recommender-body .recommender-container .menu-mix{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+
+.recommender-body .recommender-container .menu-mix .menu-detail{
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 40%;
+    height: 40%;
+    margin-right: 1rem;
+}
+
+.recommender-body .recommender-container .menu-mix .menu-detail .menu-title{
+    font-weight: 900;
+    color: brown;
+}
+
+.recommender-body .recommender-container .menu-mix .menu-detail .dish{
+    font-weight: 650;
+}
+
+.recommender-body .recommender-container .menu-mix .menu-info h1{
+    font-weight: bold;
+    color: brown;
+    margin-bottom: 0rem;
+}
+.btn{
+    display: flex;
+}
+.recommender-body .recommender-container .save-btn{
+    margin-top: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid brown;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.recommender-body .recommender-container .add-btn{
+    margin-top: 1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid blue;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.recommender-body .recommender-container .save-btn:hover,
+
+.recommender-body .recommender-container .save-btn:active{
+    background-color: brown;
+    border: 2px solid brown;
+    color: #fff;
+}
+.recommender-body .recommender-container .btn .add-btn:hover,
+.recommender-body .recommender-container .btn .add-btn:active{
+    background-color: blue;
+    border: 2px solid blue;
+    color: #fff;
+}
+
+.recommender-body .recommender-container .save-btn .save-icon{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.recommender-body .recommender-container .add-btn .save-icon{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.recommender-body .recommender-container .menu-items .dish-box{
+    margin-top: 2rem;
+}
+
+.recommender-body .recommender-container .menu-items .dish-box .dish-box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommender-body .recommender-container .menu-items .dish-box .dish-box-nav .icons{
+    display: flex;
+}
+
+.icons .icon{
+    font-size: 1.5rem;
+}
+
+.icons .icon:hover,
+.icons .icon:active{
+    color: brown;
+    cursor: pointer;
+}
+
+.recommender-body .recommender-container .expand-container{
+    margin-top: 2rem;
+}
+
+.recommender-body .recommender-container .expand-container .title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.recommender-body .recommender-container .expand-container .category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommender-body .recommender-container .expand-container .category .category-name{
+    font-weight: bold;
+}
+
+.recommender-body .recommender-container .expand-container .category .icon{
+    font-size: 1.5rem;
+}
+
+.recommender-body .recommender-container .expand-container .category .icon:hover{
+    cursor: pointer;
+    color: brown;
+}
+
+.remove-recipe:hover{
+    cursor: pointer;
+    fill: red;
+}
+
+.recommendation-panigation{
+    float: right;
+}
+
+.time-cooking{
+    padding: 5px;
+}

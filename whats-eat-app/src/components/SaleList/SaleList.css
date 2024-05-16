@@ -1,0 +1,19 @@
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    /* width: 500px; */
+}
+
+th {
+    height: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    width: 500px;
+}

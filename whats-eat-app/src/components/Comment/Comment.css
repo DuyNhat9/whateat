@@ -1,0 +1,100 @@
+.comment-container .title{
+    margin-bottom: -1rem;
+}
+
+.comment-container .comment-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 1rem;
+    height: 4rem;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.comment-container .comment-box:hover{
+    cursor: pointer;
+}
+
+.comment-container .comment-box .comment-fluid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.comment-container .comment-box .camera-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.comment-container .comment-box p{
+    font-size: 1rem;
+}
+
+.comment-container .comment-box .send-icon{
+    font-size: 2rem;
+    color: brown;
+}
+
+
+.comment-container .rating-area{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.comment-container .rating-area .star-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.comment-container .comment-area textarea{
+    width: 60%;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+}
+
+.comment-container .submit-area{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+.comment-container .submit-area .btn{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.comment-container .submit-area .btn:hover{
+    cursor: pointer;
+}
+.comment-container .submit-area .img-load-btn{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin-right: 0.5rem;
+}
+.img-icon{
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+
+.comment-container .submit-area .submit-btn{
+    border: none;
+    background-color: brown;
+    color: #fff;
+}

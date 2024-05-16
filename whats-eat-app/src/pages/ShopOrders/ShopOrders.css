@@ -1,0 +1,45 @@
+.shop-orders-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.shop-orders-fluid .shop-orders-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: #f6f6f6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+}
+
+.shop-orders-container .content-container{
+    width: 75%;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}
+
+.content-container .title{
+    
+}
+
+.orders .table-title{
+    display: flex;
+    padding: 0.7rem 1rem;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+
+.orders .table-title p{
+    width: 15%;
+    margin-bottom: 0;
+}
+
+.orders .product-name{
+    width: 40% !important;
+}

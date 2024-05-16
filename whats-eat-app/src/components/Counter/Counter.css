@@ -1,0 +1,18 @@
+.counter{
+    display: flex;
+    align-items: center;
+}
+
+.counter .number{
+    margin: 0rem 0.5rem;
+    font-weight: bold;
+}
+
+.counter .count-icon{
+    font-size: 1.5rem;
+    border: 2px solid brown;
+}
+
+.counter .count-icon:hover{
+    cursor: pointer;
+}

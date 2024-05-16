@@ -1,0 +1,49 @@
+
+.order-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.order-block .item-info{
+    display: flex;
+}
+
+.order-block .item-info .item-img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.8rem;
+    border-radius: 2px;
+}
+
+.order-block .price{
+    font-weight: 650;
+    align-self: center;
+}
+
+.total{
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 650;
+    padding: 0.5rem 1rem 0rem 1rem;
+}
+
+.cancel-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-block .cancel-btn{
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+}
+
+.cancel-block .cancel-btn:hover{
+    cursor: pointer;
+    background-color: red;
+}

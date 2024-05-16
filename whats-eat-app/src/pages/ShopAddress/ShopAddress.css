@@ -1,0 +1,69 @@
+.shop-address-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.shop-address-fluid .shop-address-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: #f6f6f6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+}
+
+.shop-address-container .content-container{
+    width: 75%;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}
+
+.content-container .title{
+    text-transform: capitalize;
+}
+
+.content-container .note{
+    opacity: 0.8;
+    margin-top: -0.3rem;
+}
+
+.content-container .shop-address-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container .shop-address-nav .btn-group .btn{
+    padding: 0.25rem 1rem
+}
+.content-container .shop-address-nav .btn-group .btn:hover{
+    color: #fff;
+    background-color: brown;
+    border: 1.5px solid brown;
+}
+
+.content-container .shop-address-nav .btn-group .btn svg{
+    margin-bottom: -0.2rem;
+    font-size: 1rem;
+}
+
+.btn-group .preview-btn{
+    color: brown;
+    background-color: #fff;
+    border: 1.5px solid brown;
+    border-radius: 5px;
+}
+
+.btn-group .add-btn{
+    color: brown;
+    background-color: #fff;
+    border: 1.5px solid brown;
+    border-radius: 5px;
+    margin-left: 1rem;
+}

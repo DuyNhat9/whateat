@@ -1,0 +1,21 @@
+.pagination{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination .pagination-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.5rem;
+    margin-left: 1rem;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.pagination .pagination-btn:hover{
+    background-color: red;
+}

@@ -1,0 +1,25 @@
+.categories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.categories .categories-container{
+    width: 70%;
+}
+
+.categories .category-col{
+    text-align: center;
+}
+.categories .category-col:hover,
+.categories .category-col:active{
+    cursor: pointer;
+}
+
+.categories .category-img{
+    width: 6rem;
+}
+
+.categories .category-col .category-title{
+    width: 6rem;
+    font-weight: 650;
+}

@@ -1,0 +1,39 @@
+.product-reviews-container{
+    margin-top: 3rem;
+}
+
+.product-reviews-container h1{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.product-reviews-container .single-review{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.product-reviews-container .single-review .avatar-img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    
+    border: 2px solid #c4c4c4;
+    border-radius: 50%;
+}
+
+.product-reviews-container .single-review .review-detail{
+    max-width: 70%;
+    margin-top: 0.2rem;
+}
+
+.product-reviews-container .single-review .review-detail .username{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.product-reviews-container .single-review .review-detail .review-content{
+    font-size: 1rem;
+}

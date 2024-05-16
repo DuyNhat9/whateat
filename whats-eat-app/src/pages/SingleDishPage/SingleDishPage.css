@@ -1,0 +1,185 @@
+.single-dish-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-dish-fluid .main-img{
+    max-width: 600px;
+    max-height: 400px;
+}
+.single-dish-fluid img{
+    object-fit: cover;
+}
+
+.single-dish-fluid .single-dish-container{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.single-dish-fluid .single-dish-container .title{
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.single-dish-container .dish-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.single-dish-container .dish-block .dish-img{
+    width: 60%;
+    height: 60vh;
+}
+
+.single-dish-container .dish-block .dish-name{
+    font-weight: 900;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.single-dish-container .dish-block .desc{
+    margin-bottom: 1rem;
+    max-width: 640px;
+}
+
+.single-dish-container .dish-block .rating-block{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-dish-container .dish-block .rating-block .icon{
+    font-size: 1.5rem;
+}
+
+.rating-block .recipe-liked .icon{
+    color: red;
+    cursor: pointer;
+}
+.rating-block .recipe-not-liked .icon{
+    color: #000;
+}
+
+.single-dish-container .dish-block .rating-block .stars,
+.single-dish-container .dish-block .rating-block .love,
+.single-dish-container .dish-block .rating-block .view{
+    display: flex;
+    align-items: center;
+}
+.single-dish-container .dish-block .rating-block span{
+    padding-left: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.single-dish-container .dish-block .form-calc{
+    width: 40%;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}
+
+.form-calc .form-title{
+    color: brown;
+    font-weight: bold;
+}
+
+.form-calc .label{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-calc .checkbox-area{
+    margin-bottom: 1rem;
+}
+
+.form-calc .checkbox-area .ant-checkbox-wrapper{
+    margin: 0;
+}
+
+.form-calc .result{
+    color: #fff;
+    background-color: brown;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-calc .result:hover{
+    background-color: red;
+}
+
+.single-dish-container .dish-info{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.single-dish-container .dish-info .info-detail{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.single-dish-container .dish-info .info-detail .icon{
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+.single-dish-container .dish-info .info-detail span{
+    font-weight: bold;
+}
+
+.single-dish-fluid .single-dish-container .combo-box{
+    margin-top: 3rem;
+    padding: 2rem;
+    border: 2px solid brown;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(252, 231, 231);
+}
+
+.single-dish-fluid .single-dish-container .combo-box:hover{
+    cursor: pointer;
+}
+
+.single-dish-fluid .single-dish-container .combo-box .combo-img{
+    width: 100%;
+    height: 250px;
+}
+
+.single-dish-fluid .single-dish-container .combo-box .noti{
+    font-size: 1rem;
+}
+.single-dish-fluid .single-dish-container .combo-box .combo-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    padding-top: 0.8rem;
+}
+
+.single-dish-fluid .single-dish-container .combo-box .combo-detail{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.single-dish-fluid .single-dish-container .combo-box .combo-price{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+
+.single-dish-fluid .single-dish-container .ingredients{
+    margin-top: 2rem;
+}
+
+.single-dish-fluid .single-dish-container .ingredients h2{
+    font-weight: bold;
+}
+
+

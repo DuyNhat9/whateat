@@ -1,0 +1,25 @@
+.ingredient-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredient-box .ingredient-name{
+    font-weight: bold;
+}
+
+.ingredient-box .icon{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-box{
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.products-box .ant-col .item-container img{
+    height: 10rem;
+}

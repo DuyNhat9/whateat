@@ -1,0 +1,47 @@
+.items-container{
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    width: 85%;
+    margin-top: 2rem;
+}
+
+.items .btn{
+    color: white;
+    background-color: brown;
+    padding: 0 1rem;
+    margin-right: 0.2rem;
+}
+
+.items-container .items .item-col{
+    width: 90%;
+}
+.items-container .items .item-col:hover{
+    cursor: pointer;
+}
+
+.items-container .items .item-col .item-container .item-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.items-container .items .item-col .item-container .item-name{
+    font-weight: 650;
+    padding-top: 1rem;
+}
+
+.items-container .items .item-col .item-container .item-quantity{
+    margin-top: -0.5rem;
+    margin-bottom: 0rem;
+}
+
+.items-container .items .item-col .item-container .item-price{
+    font-weight: 650;
+    font-size: 1rem;
+}
+
+.item-col h2{
+    font-size: 1rem;
+}

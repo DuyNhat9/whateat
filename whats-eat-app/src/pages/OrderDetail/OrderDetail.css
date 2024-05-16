@@ -1,0 +1,184 @@
+.order-detail-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.order-detail-fluid .order-detail-container{
+    width: 70%;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+.order-detail-container .order-info{
+    margin-bottom: 2rem;
+}
+.order-detail-container .order-info .address-and-status{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.address-and-status .address .customer-name{
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.address-and-status .status{
+    width: 40%;
+}
+
+.address-and-status .status .order-id{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.order-detail-container .order-info .detail{
+    padding-top: 1rem;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+}
+
+.order-detail-container .cancel-btn{
+    border: none;
+    background-color: brown;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.detail .item-info .shop-name{
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 650;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.detail .rating-btn{
+    height: fit-content;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    color: #fff;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.detail .disable{
+    background-color: #c4c4c4;
+    cursor: unset;
+}
+
+.item-info .shop-name a{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+.item-info .payment-info{
+    display: flex;
+}
+
+.item-info .intro{
+    display: flex;
+    margin: 0.5rem 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+.item-info img{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+
+.item-info .intro div{
+    margin-left: 1rem;
+}
+
+.item-info .item-name{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.item-info .item-quantity{
+    font-weight: 600;
+}
+
+.item-info div:nth-of-type(3){
+    display: flex;
+    margin: 0 1rem;
+}
+
+.item-info .label{
+    width: 70%;
+    text-align: right;
+}
+
+.label p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+}
+.label p:nth-child(3){
+    font-size: 1.2rem;
+}
+
+.item-info .value{
+    width: 30%;
+    text-align: right;
+}
+.value p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+.value p:nth-child(3){
+    font-size: 1.2rem;
+}
+
+
+.order-detail-container .rate-area .rate-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.order-block .stars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+}
+
+.comment-area textarea{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    
+}
+
+.comment-area textarea:focus{
+    outline: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+}

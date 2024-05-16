@@ -1,0 +1,71 @@
+.favor-shop-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.favor-shop-fluid .favor-shop-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #f6f6f6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+}
+
+.favor-shop-container .content-container{
+    width: 70%;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px 1px #C4C4C4;
+}
+
+.favor-shop-container .content-container .title{
+    text-transform: capitalize;
+}
+
+.content-container .favor-shop-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container .favor-shop-table{
+    margin-top: 2rem;
+}
+
+.content-container .favor-shop-table .shop-followed-card{
+    display: flex;
+    align-items: center;
+}
+
+.content-container .favor-shop-table .shop-followed-card .shop-info{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.shop-info img{
+    width: 7rem;
+    object-fit: cover;
+}
+
+.shop-info p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.content-container .favor-shop-table .shop-followed-card button{
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+}
+
